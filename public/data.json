@@ -1,0 +1,155 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Sung Jin-Woo",
+      "rank": "S-Rank",
+      "guild": "Solo Player",
+      "level": 100,
+      "strength": 999,
+      "agility": 999,
+      "intelligence": 999,
+      "vitality": 999,
+      "sense": 999,
+      "class": "Shadow Monarch",
+      "status": "Active",
+      "avatar": "https://via.placeholder.com/150x150/8B5CF6/ffffff?text=SJW"
+    },
+    {
+      "id": 2,
+      "name": "Cha Hae-In",
+      "rank": "S-Rank",
+      "guild": "Hunters Guild",
+      "level": 85,
+      "strength": 340,
+      "agility": 450,
+      "intelligence": 280,
+      "vitality": 380,
+      "sense": 420,
+      "class": "Assassin",
+      "status": "Active",
+      "avatar": "https://via.placeholder.com/150x150/F97316/ffffff?text=CHI"
+    },
+    {
+      "id": 3,
+      "name": "Go Gun-Hee",
+      "rank": "S-Rank",
+      "guild": "Korean Hunters Association",
+      "level": 78,
+      "strength": 420,
+      "agility": 320,
+      "intelligence": 480,
+      "vitality": 390,
+      "sense": 410,
+      "class": "Support",
+      "status": "Retired",
+      "avatar": "https://via.placeholder.com/150x150/8B5CF6/ffffff?text=GGH"
+    },
+    {
+      "id": 4,
+      "name": "Yoo Jin-Ho",
+      "rank": "D-Rank",
+      "guild": "Ahjin Guild",
+      "level": 25,
+      "strength": 45,
+      "agility": 52,
+      "intelligence": 38,
+      "vitality": 48,
+      "sense": 41,
+      "class": "Support",
+      "status": "Active",
+      "avatar": "https://via.placeholder.com/150x150/F97316/ffffff?text=YJH"
+    },
+    {
+      "id": 5,
+      "name": "Thomas Andre",
+      "rank": "S-Rank",
+      "guild": "Scavenger Guild",
+      "level": 82,
+      "strength": 480,
+      "agility": 290,
+      "intelligence": 310,
+      "vitality": 460,
+      "sense": 350,
+      "class": "Tank",
+      "status": "Active",
+      "avatar": "https://via.placeholder.com/150x150/8B5CF6/ffffff?text=TA"
+    },
+    {
+      "id": 6,
+      "name": "Liu Zhigang",
+      "rank": "S-Rank",
+      "guild": "China Hunters Bureau",
+      "level": 79,
+      "strength": 410,
+      "agility": 380,
+      "intelligence": 340,
+      "vitality": 420,
+      "sense": 390,
+      "class": "Fighter",
+      "status": "Active",
+      "avatar": "https://via.placeholder.com/150x150/F97316/ffffff?text=LZ"
+    }
+  ],
+  "guilds": [
+    {
+      "id": 1,
+      "name": "Ahjin Guild",
+      "master": "Sung Jin-Woo",
+      "rank": "S-Rank",
+      "members": 12,
+      "founded": "2023-03-15",
+      "reputation": 9500
+    },
+    {
+      "id": 2,
+      "name": "Hunters Guild",
+      "master": "Cha Hae-In",
+      "rank": "S-Rank",
+      "members": 45,
+      "founded": "2021-08-20",
+      "reputation": 8800
+    },
+    {
+      "id": 3,
+      "name": "Scavenger Guild",
+      "master": "Thomas Andre",
+      "rank": "S-Rank",
+      "members": 38,
+      "founded": "2020-12-10",
+      "reputation": 9200
+    }
+  ],
+  "dungeons": [
+    {
+      "id": 1,
+      "name": "Shadow Dungeon",
+      "rank": "S-Rank",
+      "type": "Boss",
+      "difficulty": "Extreme",
+      "rewards": ["Shadow Extraction", "Rare Items", "High EXP"],
+      "status": "Cleared",
+      "clearedBy": "Sung Jin-Woo"
+    },
+    {
+      "id": 2,
+      "name": "Ice Bear Dungeon",
+      "rank": "A-Rank",
+      "type": "Instance",
+      "difficulty": "Hard",
+      "rewards": ["Ice Crystals", "Equipment", "Medium EXP"],
+      "status": "Available",
+      "clearedBy": null
+    },
+    {
+      "id": 3,
+      "name": "Demon Castle",
+      "rank": "S-Rank",
+      "type": "Raid",
+      "difficulty": "Nightmare",
+      "rewards": ["Legendary Weapons", "Boss Materials", "Massive EXP"],
+      "status": "Locked",
+      "clearedBy": null
+    }
+  ]
+}
